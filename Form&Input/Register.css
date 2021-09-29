@@ -1,0 +1,39 @@
+div,input,textarea{
+    box-sizing:border-box;
+}
+
+.form-background{
+    background-color:black;
+    padding:30px;
+}
+
+.container{
+    width:70%;
+    height: 70%;
+    background-color:white;;
+    margin:auto;
+}
+.form-input{
+    width:100%;
+    box-sizing:border-box;
+    padding:10px;
+}
+.First-Name{
+    padding:10px;
+    float:left;
+}
+
+.Last-Name{
+    
+    padding:10px;
+}
+
+.Message{
+    padding-right:180px;
+    padding-top:50px;
+}
+
+.submit{
+    background-color:blueviolet;
+    border-radius:5px;
+}
