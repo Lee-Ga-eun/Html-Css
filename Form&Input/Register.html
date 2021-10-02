@@ -10,30 +10,39 @@
 <body>
     <div class="form-background">
         <div class="container">
-        <div>
+        <form>
+
+        <div class="w-100">
             <h4>Contact Us</h4>
-        </div>
-        <div>
             <h5>Your Email</h5>
             <input class="form-input" type="email" placeholder="email@example.com">
         </div>
 
         <div>
-            <div class="First-Name"> 
-                <h5>First Name</h5>
-                <form><input type="text" ></form>
+            <div class="w-50">
+                <p>Fisrt Name</p>
+                <input class="form-input" type="text" placeholder="first name">
             </div>
-            <div class="Last-Name">
-                <h5>Last Name</h5>
-                <form><input type="text"></form>
+            <div class="w-50">
+                <p>Last Name</p>
+                <input class="form-input" type="text" placeholder="Last name">
             </div>
         </div>
-        <h5>Message</h5>
-        <input type="text" class="Message">
-        <p></p>
-        <input type="checkbox">Subscribe
-        <button type="submit" class="submit">SEND</button>
 
+        <div style="clear:both"></div>
+
+        <div class="w-100">
+            <p>message</p>
+            <textarea class="form-input form-long"></textarea>
+        <br>
+        <!-- label 태그: 글씨를 누르면 체크 박스도 표시되도록 하는 기능 -->
+        <input id="sub" type="checkbox">
+        <label for="sub">Subscribe</label>
+
+        <button class="yellow-button">Send</button>
+        </div>
+        </form>
+        
         </div>
         </div>
 

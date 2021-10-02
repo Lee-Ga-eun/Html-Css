@@ -10,30 +10,34 @@ div,input,textarea{
 .container{
     width:70%;
     height: 70%;
-    background-color:white;;
+    padding:30px;
+    background-color:white;
     margin:auto;
 }
 .form-input{
     width:100%;
+    /* 실제 width: 100%+20px --> box-sizing:border-box로 해결.*/
     box-sizing:border-box;
     padding:10px;
 }
-.First-Name{
-    padding:10px;
+/* 재사용이 가능한 클래스를 만든다 */
+.w-100{
+    width:100%; padding:10px;
+}
+
+.w-50{
+    width:50%;
     float:left;
-}
-
-.Last-Name{
-    
     padding:10px;
 }
 
-.Message{
-    padding-right:180px;
-    padding-top:50px;
+.form-long{
+    background-color: aqua;
 }
 
-.submit{
-    background-color:blueviolet;
-    border-radius:5px;
+.yellow-button{
+    background-color:yellow;
+    /* 간단하게 우측 정렬하기 */
+    display:block;
+    margin-left:auto;
 }
