@@ -2,6 +2,14 @@ div,input,textarea{
     box-sizing:border-box;
 }
 
+/* 외부에서 폰트를 다운 받아 적용시키는 법 (custom font)*/
+@font-face{
+    font-family:'이쁜폰트';
+    src:url(../Font/HS유지체.ttf) 
+}
+
+/* google fonts 도 많이 사용한다 */
+
 .form-background{
     background-color:black;
     padding:30px;
@@ -40,4 +48,16 @@ div,input,textarea{
     /* 간단하게 우측 정렬하기 */
     display:block;
     margin-left:auto;
+}
+
+body{
+    margin:0px;
+    font-family:'이쁜폰트';
+    /* 앞에 것이 적용이 안 된다면 뒤에 것을 순차적으로 시도 */
+    
+}
+
+/* 폰트를 부드럽게 처리하는 법: 회전시킨다 (Mac은 자동으로 부드럽게 해줌)  */
+p,h4,h3,h2,h1,span{
+    transform:rotate(0.5deg)
 }
