@@ -1,0 +1,74 @@
+
+
+.background{
+    width:100%;
+    background-color:blanchedalmond;
+    padding:30px; margin:auto; 
+    
+    
+}
+
+td,th{
+    /* border:1px solid black; */
+}
+
+.cart-table{
+    width:100%;
+    max-width:700px;
+   
+    background:white;
+    border-radius:10px;
+    border: 1px solid black;
+    
+}
+
+.cart-table td, .cart-table th{
+    padding:15px;
+    border-bottom:1px solid #c2d3de;
+}
+
+.cell-long{
+    width:700px;
+    /* td에게는 최대한 00만큼 차지해보세요 라는 뜻 */
+}
+/* nth-child(n) 셀렉터: n번째 등장하는 요소만 스타일링할 때 */
+.cart-table th:nth-child(2){
+    width:400px;
+}
+
+.btn{
+    padding:15px;
+    background-color:coral;
+    border:none;
+    border-radius:10px;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+}
+
+/* 마우스를 올리면 색깔이 바뀌도록 */
+.btn:hover{
+    background-color:cadetblue;
+}
+.btn:focus{
+    background-color:grey;
+}
+/* 버튼을 눌렀을 때 */
+.btn:active{
+    background-color:brown;
+}
+.input-test{
+    font-size:20px;
+}
+.input-test:focus{
+    border:2px solid red;
+}
+.custom-link{
+text-decoration:none;
+}
+.custom-link:link{
+    color:darkgray;
+}
+.custom-link:visited{
+    color:darkolivegreen;
+}

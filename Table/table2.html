@@ -1,0 +1,50 @@
+<!-- 
+* nth-child(n) 사용하기
+* CSS에서, 한 곳에 두 개 작성하기
+$ pre-saudo 이용
+* cursor 이용
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="table2.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <h3>Your Cart</h3>
+        <table class="cart-table">
+            <thead>
+            <tr>
+                <td></td>
+                <th>Item</th>
+                <th>Amount</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="../ocean.jpeg" width="50px"></td>
+                    <td>카메라</td>
+                    <td>1</td>
+                    <td>7000</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td colspan="5" style="text-align:right;">총가격</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button class="btn">구매하기</button>
+        <input class="input-test">
+        <a href="#" class="custom-link">Link</a>
+
+    </div>
+</body>
+</html>
