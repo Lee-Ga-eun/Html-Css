@@ -102,3 +102,23 @@ input[type=password]{
     border:2px solid rgb(201, 231, 132);
     border-radius: 5px;
 }
+
+/* media query 문법. css파일 최하단에 보통 적음 | 여러개 사용 가능
+- 현재 브라우저 폭이 1200px이하일 경우, 30px을 적용해주세요 */
+
+/* breakpoint: 1200px 992px 768px 576px. 4개 이상 사용하면 복잡해짐 */
+@media screen and (max-width:1200px){
+    .main-title{
+        font-size:30px;
+    }
+    .nav-item{
+        font-size:12px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .main-title{
+        font-size:20px;
+    }
+}
