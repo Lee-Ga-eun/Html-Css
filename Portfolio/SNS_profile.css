@@ -1,0 +1,48 @@
+.main-container{
+    background-color: #eef1f5;
+    width:100%;
+    
+}
+
+.container{
+    padding:50px;
+}
+
+.button{
+    background-color: rgb(148, 183, 248);
+    color:white;
+    border-radius:10px;
+}
+
+.first_container_first_row{
+    display:flex;
+    background-color: white;
+    border-radius: 10px;
+    width:100%;
+}
+
+.profile{
+    width:60%;
+}
+.profile_details{
+  width:30%;
+  padding:20px;
+}
+
+
+
+.second_container{
+    padding: 20px 0px;
+}
+
+.third_container{
+    display:flex;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+.social{
+    padding:20px;color:rgb(83, 83, 83);
+}
